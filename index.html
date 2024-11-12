@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ini punya beta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e692e6;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #000000;
+        }
+        .post {
+            background-color: #fff;
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+        }
+        .post h3 {
+            margin: 0;
+        }
+        .post p {
+            color: #333;
+        }
+        .new-post-form {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>gabole toxic, bole nya aur auran</h1>
+
+    <!-- Formulir untuk menambah postingan baru -->
+    <div class="new-post-form">
+        <h2>ribut sini</h2>
+        <input type="text" id="postTitle" placeholder="ni nama kmu yh" style="width: 100%; padding: 10px;">
+        <textarea id="postContent" placeholder="sini tulis ide cemerlang mu" style="width: 100%; padding: 10px; height: 100px;"></textarea>
+        <button onclick="addPost()" style="padding: 10px 20px; background-color: #4caf75; color: white;">ribut sini</button>
+    </div>
+
+    <!-- Daftar postingan forum -->
+    <div id="postList"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
